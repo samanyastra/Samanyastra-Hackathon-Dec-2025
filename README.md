@@ -1,16 +1,76 @@
-# React + Vite
+# Samanyastra Hackathon December 2025
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Setup Instructions
 
-Currently, two official plugins are available:
+### How to Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Clone this repository**
+   ```bash
+   git clone <repository-url>
+   cd samanyastra_hackathon_2025
+   ```
 
-## React Compiler
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
 
-## Expanding the ESLint configuration
+The application will be available at `http://localhost:5173`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Hackathon Guidelines
+
+### Portfolio Component
+
+For this hackathon, you need to work with the **Portfolio** component located in the `src/Portfolio/` directory. You can replace everything inside this component to create your own portfolio page.
+
+### Important Rules
+
+#### CSS & Styling
+- ❌ **DO NOT** use external libraries like Bootstrap or Tailwind
+- ✅ You can use your **own CSS**
+- ✅ You can use **Material UI** only
+
+#### Data Management
+- 📋 All data in the portfolio page **must be dynamic**
+- ❌ **NO hardcoding** of names or any other information
+- ✅ All data must be taken from **`data.js`**
+- ⚠️ **Do NOT change the structure** of the JSON in `data.js`
+- ⚠️ If you add any extra fields, **mention them during submission**
+
+---
+
+## Testing
+
+### Responsiveness Testing
+
+1. **Basic Test**: Use your screen's responsiveness tools in the browser
+
+2. **Preview Route**: Visit the preview route to check responsiveness on multiple devices
+   ```
+   http://localhost:5173/preview
+   ```
+   This route allows you to test your portfolio on various screen sizes.
+
+---
+
+## Merit Criteria
+
+Your submission will be evaluated based on:
+
+1. **Responsiveness** - How well your portfolio adapts to different screen sizes
+2. **Less Number of Components** - Efficiency in component architecture
+3. **Sticking to the Rules** - Following all guidelines mentioned above
+4. **Submission on Time** - Timely submission of your work
+
+---
+
+## Good Luck! 🚀
+
+Make sure to test your portfolio thoroughly before submission and ensure all rules are followed.
